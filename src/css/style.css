@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-base: poppins, "Segoe UI", sans-serif;
+  --font-secondary: montserrat;
+}
+
+* {
+  font-family: var(--font-base);
+}
+
+/* Add any custom styling here */
+
+@layer utilities {
+  /* Example */
+  .centered-row {
+    @apply flex items-center justify-center;
+  }
+}

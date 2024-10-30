@@ -1,0 +1,24 @@
+{
+  "name": "bonapex-page",
+  "version": "1.0.0",
+  "description": "BonApex solutions coming soon page.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "tailwindcss",
+    "vite",
+    "postcss"
+  ],
+  "author": "Charles Mallya",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "vite": "^5.4.8"
+  }
+}

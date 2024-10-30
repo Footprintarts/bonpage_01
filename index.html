@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TailwindCSS</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto bg-transparent">
+      <!-- Banner -->
+      <header
+        class="banner bg-gradient-to-r from-[#11B0EB] to-[#DB60D8] h-[74px] z-20"
+      >
+        <p class="text-center p-3 text-white md:p-6 md:text-xl">
+          Welcome!<br class="md:hidden" />
+          Our official website is coming soon!
+        </p>
+      </header>
+
+      <!-- Main -->
+
+      <section class="main px-4">
+        <!-- Nav -->
+        <div class="nav md:flex md:items-center md:justify-between lg:py-4">
+          <div class="logo h-[60px] centered-row">
+            <img src="/src/assets/log1.png" alt="logo" />
+          </div>
+          <!-- Btn -->
+          <button
+            class="bg-[#0066B1] text-white text-lg px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-300 ease-in-out hidden md:block"
+          >
+            coming soon
+          </button>
+        </div>
+        <!-- Hero-Main -->
+        <div
+          class="hero flex flex-col gap-[22px] md:grid lg:grid lg:grid-cols-3"
+        >
+          <!-- BENTO-1 -->
+          <div class="bento-1 h-[673px] flex flex-col gap-[22px] md:h-[700px]">
+            <!-- HERO-IMAGES -->
+            <div
+              class="1 bg-[#0066B1]/80 h-[75%] rounded-2xl bg-[url('/src/assets/wave.png')] bg-no-repeat bg-bottom overflow-clip relative md:h-[70%] md:bg-cover"
+            >
+              <div
+                class="box bg-gradient-to-t from-[#004C84] via-transparent h-full flex flex-col items-center"
+              >
+                <!-- MustHead -->
+                <h1
+                  class="text-white font-[montserrat] text-7xl md:text-7xl md:mt-2 md:tracking-wider lg:text-5xl"
+                >
+                  <p class="text-[20px] font-[200] italic mt-5">We are:</p>
+                  <strong>Bon</strong>Apex
+                </h1>
+                <!-- Solutions -->
+                <div class="w-full flex absolute top-[110px] lg:-mt-4">
+                  <div class="flex-1"></div>
+                  <img
+                    src="/src/assets/solutions.png"
+                    alt="solns"
+                    class="mr-2 w-[180px] items-end md:mr-[120px] lg:w-[130px] lg:mr-[90px]"
+                  />
+                </div>
+                <!--Hero Image -->
+                <img
+                  src="/src/assets/avatar.png"
+                  alt="avatar"
+                  class="-mt-8 md:w-[420px] lg:w-[430px]"
+                />
+
+                <!-- Tagline -->
+                <div class="w-full flex absolute bottom-0 justify-center">
+                  <p
+                    class="text-white font-[montserrat] tracking-wider md:text-lg"
+                  >
+                    A DYNAMIC TECH. COMPANY
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- second -->
+            <div
+              class="2 bg-gray-200 h-[25%] rounded-[10px] flex md:h-[30%] lg:h-[24%]"
+            >
+              <div
+                class="flex-1 pl-5 flex flex-col justify-center md:pl-8 lg:pl-3"
+              >
+                <p class="text-[#0066B1] text-3xl md:text-5xl lg:text-3xl">
+                  Redefining
+                </p>
+                <p
+                  class="text-transparent text-lg bg-gradient-to-r from-[#11B0EB] via-[#f176ef] to-[#DB60D8] bg-clip-text md:text-2xl lg:text-lg"
+                >
+                  Artifical Intelligence
+                </p>
+              </div>
+              <div class="flex-1 flex items-end">
+                <img
+                  src="/src/assets/brain.png"
+                  alt="ai"
+                  class="w-[150px] ml-4 md:w-[250px] md:ml-8 lg:ml-0 lg:w-[180px]"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- BENTO-2 -->
+          <div
+            class="bento-2 h-[708px] flex flex-col gap-[22px] md:grid md:grid-cols-2 md:h-max lg:flex lg:flex-col-reverse lg:h-full"
+          >
+            <div class="2 bg-gray-200 h-[50%] rounded-[10px] md:h-full">
+              <h2 class="text-[28px] text-[#0066B1] px-4 py-5">Our services</h2>
+              <div
+                class="img bg-[url('/src/assets/services_graphic.png')] bg-auto h-[90%] flex items-center lg:bg-contain lg:bg-no-repeat"
+              ></div>
+            </div>
+            <div
+              class="2 bg-gray-200 h-[48%] rounded-[10px] px-[26px] py-[50px] md:h-full"
+            >
+              <p
+                class="text-[#0066B1] font-bold font-[montserrat] text-[50px] leading-[45pt] lg:leading-tight lg:text-6xl"
+              >
+                Digital Solutions tailored for your Success
+              </p>
+            </div>
+          </div>
+          <!-- BENTO-3 -->
+          <div
+            class="bento-3 h-[785px] flex flex-col gap-[22px] pb-6 md:grid md:grid-cols-2 md:h-max lg:h-[491px] lg:flex lg:gap-[20px]"
+          >
+            <div
+              class="2 bg-[#19191E] h-[40%] rounded-[10px] py-[22px] px-[24px] md:h-max lg:h-full"
+            >
+              <h2 class="text-white text-4xl">
+                Step into<br />
+                Digital Future
+              </h2>
+              <p class="text-white/70 text-xl mt-3">
+                Explore BonApex Solutions, a leader in software innovation
+                empowering African communities, through technology.
+              </p>
+            </div>
+            <div
+              class="2 bg-[#F2D963] h-[60%] rounded-[10px] pt-[46px] pl-[26px] pr-4 bg-[url('/src/assets/wave.png')] bg-center md:h-full lg:h-[630px] lg:pb-2"
+            >
+              <h2 class="text-[28px] leading-9 text-[#444444]">
+                Leading Tanzania’s<br />
+                Tech Evolution
+              </h2>
+
+              <!-- mail_graphic-absolute -->
+              <div class="mail hidden lg:flex flex-row-reverse">
+                <img
+                  src="/src/assets/mail_graphic.png"
+                  alt="mail"
+                  width="50"
+                  class=""
+                />
+              </div>
+
+              <p class="text-[20px] text-[#444444]/90 mt-4">
+                BonApex Solutions drives growth in healthcare, real estate, and
+                more with innovative tech, empowering industries across
+                Tanzania.
+              </p>
+              <div class="contacts mt-[87px] flex flex-row-reverse">
+                <div class="numbers">
+                  <p class="font-bold text-xl text-[#444444]">Our Contacts</p>
+                  <p>+255 655 013 283</p>
+                  <p>Info@bonapex.co</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- END -->
+    </div>
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
